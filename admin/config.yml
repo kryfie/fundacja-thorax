@@ -1,0 +1,96 @@
+# FUNDACJA THORAX — DECAP CMS
+# Po utworzeniu repozytorium GitHub podmień tylko wartość `repo:` poniżej.
+backend:
+  name: github
+  repo: YOUR_GITHUB_USERNAME/fundacja-thorax
+  branch: main
+  use_graphql: true
+
+media_folder: assets/uploads
+public_folder: /assets/uploads
+
+locale: pl
+
+collections:
+  - name: site
+    label: Strona Fundacji
+    files:
+      - name: homepage
+        label: Treści strony
+        file: content/site.json
+        format: json
+        fields:
+          - label: Dane Fundacji
+            name: settings
+            widget: object
+            fields:
+              - {label: Nazwa, name: foundationName, widget: string}
+              - {label: Podtytuł, name: tagline, widget: text}
+              - {label: KRS, name: krs, widget: string}
+              - {label: NIP, name: nip, widget: string}
+              - {label: REGON, name: regon, widget: string}
+              - {label: E-mail, name: email, widget: string}
+              - {label: Telefon, name: phone, widget: string}
+              - {label: Adres, name: address, widget: string}
+              - {label: Konto bankowe, name: bankAccount, widget: string}
+          - label: Strona główna
+            name: home
+            widget: object
+            fields:
+              - {label: Nadtytuł hero, name: heroEyebrow, widget: string}
+              - {label: Tytuł hero, name: heroTitle, widget: string}
+              - {label: Opis hero, name: heroText, widget: text}
+              - {label: Tytuł misji, name: missionTitle, widget: string}
+              - {label: Opis misji, name: missionText, widget: text}
+              - {label: Tytuł 1,5%, name: taxTitle, widget: string}
+              - {label: Opis 1,5%, name: taxText, widget: text}
+          - label: Jak pomagamy
+            name: programs
+            widget: list
+            summary: '{{fields.title}}'
+            fields:
+              - {label: Kategoria, name: category, widget: string}
+              - {label: Tytuł, name: title, widget: string}
+              - {label: Krótki opis, name: summary, widget: text}
+              - {label: Rozwinięcie, name: details, widget: text, required: false}
+              - {label: Link, name: formUrl, widget: string, required: false}
+          - label: Wydarzenia
+            name: events
+            widget: list
+            summary: '{{fields.title}} — {{fields.dateLabel}}'
+            fields:
+              - {label: Tytuł, name: title, widget: string}
+              - {label: Termin, name: dateLabel, widget: string}
+              - {label: Lokalizacja, name: location, widget: string, required: false}
+              - {label: Opis, name: summary, widget: text}
+              - {label: Link, name: url, widget: string, required: false}
+              - {label: Zdjęcie, name: image, widget: image, required: false}
+              - {label: Archiwalne, name: archived, widget: boolean, default: false}
+          - label: Strefa pacjenta — artykuły
+            name: articles
+            widget: list
+            summary: '{{fields.title}}'
+            fields:
+              - {label: Slug, name: slug, widget: string, hint: 'np. diagnostyka-astmy'}
+              - {label: Kategoria, name: category, widget: string}
+              - {label: Data / etykieta, name: dateLabel, widget: string}
+              - {label: Tytuł, name: title, widget: string}
+              - {label: Zajawka, name: excerpt, widget: text}
+              - {label: Treść, name: body, widget: markdown}
+              - {label: Zdjęcie, name: image, widget: image, required: false}
+          - label: Zespół
+            name: people
+            widget: list
+            summary: '{{fields.name}} — {{fields.role}}'
+            fields:
+              - {label: Sekcja, name: section, widget: select, options: ['Zarząd Fundacji','Rada Programowa','Rada Rewizyjna']}
+              - {label: Imię i nazwisko, name: name, widget: string}
+              - {label: Funkcja, name: role, widget: string}
+          - label: Dokumenty
+            name: reports
+            widget: list
+            summary: '{{fields.title}}'
+            fields:
+              - {label: Tytuł, name: title, widget: string}
+              - {label: Opis, name: description, widget: string, required: false}
+              - {label: Link do dokumentu, name: url, widget: string}

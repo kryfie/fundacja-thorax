@@ -1,0 +1,141 @@
+{
+  "settings": {
+    "foundationName": "Fundacja Thorax",
+    "tagline": "Fundacja Rozwoju Profilaktyki, Diagnostyki i Leczenia Chorób Klatki Piersiowej",
+    "krs": "0000643372",
+    "nip": "5423264387",
+    "regon": "366118028",
+    "email": "biuro@fundacjathorax.pl",
+    "phone": "+48 609 545 850",
+    "address": "ul. Włościańska 101, 15-199 Białystok",
+    "bankAccount": "10 1020 1332 0000 1102 1045 6178"
+  },
+  "home": {
+    "heroEyebrow": "Wiedza · profilaktyka · wsparcie",
+    "heroTitle": "Razem dbamy o zdrowie płuc i jakość życia pacjentów.",
+    "heroText": "Fundacja Thorax łączy pacjentów, specjalistów i edukację medyczną. Pomagamy w profilaktyce, diagnostyce i leczeniu chorób klatki piersiowej, w tym chorób nowotworowych.",
+    "missionTitle": "Wcześniej wykrywać. Lepiej rozumieć. Skuteczniej pomagać.",
+    "missionText": "Propagujemy profilaktykę i prawidłową diagnostykę oraz zwiększamy społeczną świadomość znaczenia wczesnego i kompleksowego rozpoznawania chorób.",
+    "taxTitle": "Przekaż Fundacji Thorax 1,5% podatku.",
+    "taxText": "Wskaż Fundację Thorax w swoim rozliczeniu PIT. Twoje wsparcie pomaga finansować działania dla pacjentów, edukację i projekty profilaktyczne."
+  },
+  "programs": [
+    {
+      "category": "Wsparcie",
+      "title": "Konsultacje społeczne pacjentów",
+      "summary": "Rozmowa, informacja i pomoc w odnalezieniu właściwej ścieżki wsparcia.",
+      "details": "Pomagamy pacjentom i ich bliskim lepiej odnaleźć się w procesie diagnostyki i leczenia.",
+      "formUrl": ""
+    },
+    {
+      "category": "Wolontariat",
+      "title": "Warsztaty o wolontariacie",
+      "summary": "Budujemy społeczność osób, które chcą działać na rzecz pacjentów i profilaktyki.",
+      "details": "Warsztaty i działania edukacyjne rozwijające wolontariat i współpracę społeczną.",
+      "formUrl": ""
+    },
+    {
+      "category": "Edukacja",
+      "title": "Spotkania ze specjalistami",
+      "summary": "Praktyczna wiedza od lekarzy i ekspertów związanych z opieką nad pacjentem.",
+      "details": "Spotkania, konsultacje i materiały edukacyjne przygotowywane z ekspertami.",
+      "formUrl": ""
+    },
+    {
+      "category": "Warsztaty",
+      "title": "Warsztaty rozwojowe",
+      "summary": "Zajęcia oddechowe, komunikacyjne, komputerowe, artystyczne i inne.",
+      "details": "Aktywności wspierające dobrostan, sprawczość i codzienne funkcjonowanie pacjentów.",
+      "formUrl": ""
+    }
+  ],
+  "events": [
+    {
+      "title": "ONCOweek 2025",
+      "dateLabel": "24–30 listopada 2025",
+      "location": "Białystok",
+      "summary": "VII Podlaski Tydzień Profilaktyki i Leczenia Chorób Nowotworowych.",
+      "url": "",
+      "image": "",
+      "archived": true
+    }
+  ],
+  "articles": [
+    {
+      "slug": "pogoda-a-astma",
+      "category": "Astma",
+      "dateLabel": "Archiwum",
+      "title": "Czy pogoda może mieć wpływ na przebieg astmy?",
+      "excerpt": "Krótki materiał edukacyjny dla osób z astmą.",
+      "body": "Warunki atmosferyczne mogą wpływać na samopoczucie części osób z astmą. Materiał ma charakter edukacyjny i nie zastępuje indywidualnej konsultacji lekarskiej.",
+      "image": ""
+    },
+    {
+      "slug": "diagnostyka-astmy",
+      "category": "Astma",
+      "dateLabel": "Archiwum",
+      "title": "Diagnostyka astmy w pigułce",
+      "excerpt": "Podstawowe informacje o rozpoznaniu i czynnikach nasilających objawy.",
+      "body": "Rozpoznanie astmy opiera się na wywiadzie, ocenie objawów i badaniach zaleconych przez lekarza. W razie niepokojących objawów należy skontaktować się ze specjalistą.",
+      "image": ""
+    },
+    {
+      "slug": "diagnostyka-pochp",
+      "category": "POChP",
+      "dateLabel": "Archiwum",
+      "title": "Diagnostyka POChP w pigułce",
+      "excerpt": "Najważniejsze informacje o przewlekłej obturacyjnej chorobie płuc.",
+      "body": "POChP wymaga profesjonalnej diagnostyki i prowadzenia przez lekarza. Wczesne rozpoznanie może pomóc lepiej kontrolować przebieg choroby.",
+      "image": ""
+    }
+  ],
+  "people": [
+    {
+      "section": "Zarząd Fundacji",
+      "name": "dr hab. Mirosław Kozłowski",
+      "role": "Prezes Fundacji"
+    },
+    {
+      "section": "Zarząd Fundacji",
+      "name": "dr hab. n. med. Ewa Sierko",
+      "role": "Zastępca Prezesa"
+    },
+    {
+      "section": "Zarząd Fundacji",
+      "name": "Ewelina Naumnik",
+      "role": "Członek Zarządu"
+    },
+    {
+      "section": "Rada Programowa",
+      "name": "dr hab. Joanna Reszeć",
+      "role": "Członek"
+    },
+    {
+      "section": "Rada Programowa",
+      "name": "dr n. med. Tomasz Filipowski",
+      "role": "Członek"
+    },
+    {
+      "section": "Rada Rewizyjna",
+      "name": "Łarysa Andrzejuk",
+      "role": "Przewodnicząca Rady Rewizyjnej"
+    },
+    {
+      "section": "Rada Rewizyjna",
+      "name": "Ewa Lipiszko",
+      "role": "Członek Rady Rewizyjnej"
+    },
+    {
+      "section": "Rada Rewizyjna",
+      "name": "Katarzyna Markuszewska",
+      "role": "Członek Rady Rewizyjnej"
+    }
+  ],
+  "reports": [
+    {
+      "title": "Statut Fundacji",
+      "description": "Dokument statutowy Fundacji Thorax.",
+      "url": "https://fundacjathorax.pl/wp-content/uploads/2020/04/thorax_statut.pdf"
+    }
+  ]
+}
