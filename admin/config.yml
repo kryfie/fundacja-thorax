@@ -2,7 +2,7 @@
 # Po utworzeniu repozytorium GitHub podmień tylko wartość `repo:` poniżej.
 backend:
   name: github
-  repo: YOUR_GITHUB_USERNAME/fundacja-thorax
+  repo: kryfie/fundacja-thorax
   branch: main
   use_graphql: true
 
